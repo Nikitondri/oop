@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.zakharenko.lab02.controller.Controller">
+    <Label layoutX="369.0" layoutY="11.0" text="graphics editor">
+        <font>
+          <Font size="22.0" />
+        </font>
+    </Label>
+    <MenuButton fx:id="buttonFigure" layoutX="757.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" text="Figure">
+      <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+      </items>
+    </MenuButton>
+   <Canvas fx:id="canvas" height="554.0" layoutY="43.0" onMouseClicked="#mouseClicked" width="888.0" />
+   <ColorPicker fx:id="colorPicker" layoutX="14.0" layoutY="14.0" />
+   <Button fx:id="buttonClear" onMouseClicked="#clearClicked" layoutX="153.0" layoutY="15.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="114.0" text="Clear all" />
+</AnchorPane>

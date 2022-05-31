@@ -6,6 +6,7 @@ import com.zakharenko.lab03.service.GeneratorService;
 import com.zakharenko.lab03.service.generator.Names;
 import com.zakharenko.lab03.service.generator.Tariffs;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
